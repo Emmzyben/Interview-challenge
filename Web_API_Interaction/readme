@@ -1,0 +1,4 @@
+To run the Test in Node.js
+Open a terminal or command prompt.
+Navigate to the directory where both Web_API_Interaction.js and test.js are saved.
+Run the test file or Web_API_Interaction.js using Node.js:

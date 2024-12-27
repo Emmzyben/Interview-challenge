@@ -1,0 +1,4 @@
+To run the Test in Node.js
+Open a terminal or command prompt.
+Navigate to the directory where both dataStructures.js and test.js are saved.
+Run the test file using Node.js:

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Manipulation</title>
+    <style>
+#result-display{
+   background-color: rgb(102, 100, 100);color: white;
+    border-radius: 10px;font-size: 50px;padding: 10px;height: 80px;
+}
+#form-container{
+display: flex;align-items: center;justify-content: center;padding: 40px;
+}
+form{
+    border: 1px solid grey; padding: 20px;background-color: gray;color: white;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+}
+#subm{
+    background-color:orangered ;padding:8px ;margin-top: 10px;color: #fff;
+    border-radius: 5px;border: none;
+}
+    </style>
+</head>
+<body>
+    <h1>String Manipulation Tool By <span style="color:orangered">Emmanuel Amadi</span></h1>
+    <div id="result-display"></div> <!--this is a container for display the result from the manipulated string-->
+    <div id="form-container">
+        <!-- Form to input the string -->
+       <form id="string-form">
+        <label for="input-string">Enter your string:</label><br>
+        <input type="text" id="input-string" required><br>
+        <button type="submit" id="subm">Submit</button>
+    </form>  
+    </div>
+   
+    <div style="text-align: left;padding: 20px;">
+     <h2>General Info: This is a tool which takes a string as input and returns a new string with the following modifications:</h2>
+     <ol>
+        <li>All lowercase letters are converted to uppercase.</li>
+        <li>All uppercase letters are converted to lowercase.</li>
+        <li> All vowels are removed from the string. </li>
+     </ol>
+    </div>
+    <p><b>Instruction:</b>Enter a string in the form input and submit to display the manipulated string</p>
+  <script src="string_manipulation.js"></script>
+</body>
+</html>

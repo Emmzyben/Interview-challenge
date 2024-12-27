@@ -1,0 +1,10 @@
+To run the Test in Node.js
+Open a terminal or command prompt.
+
+FOR TESING ON THE FRONTEND
+Navigate to the directory where string_manipulation_frontend.html is saved.
+open it on your browser and interact with it
+
+FOR TESTING USING NODEjs
+Navigate to the directory where test.js is saved.
+Run the test file  using Node.js:
